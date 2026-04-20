@@ -93,8 +93,7 @@ def ingestar_rango(id_inicio: int, id_fin: int):
     control[clave] = {
         "registros": len(registros),
         "errores": errores,
-        "archivo": archivo,
-        "timestamp": datetime.now().isoformat()
+        "archivo": archivo
     }
     guardar_control(control)
 
